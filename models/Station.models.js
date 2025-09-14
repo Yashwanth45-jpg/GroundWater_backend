@@ -3,6 +3,9 @@ const mongoose = require('mongoose');
 const stationSchema = new mongoose.Schema({
   name: { type: String, required: true },
   state: { type: String, required: true },
+  district: {type: String, required: true},
+  Block: {type : String, required: true},
+  Village: {type: String, required: true},
   latitude: { type: Number, required: true },
   longitude: { type: Number, required: true },
   latestLevel: { type: Number, required: true },

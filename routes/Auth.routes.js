@@ -1,6 +1,5 @@
 const express = require('express');
 const {registerController, loginController, logoutController} = require('../controllers/Auth.controller')
-
 const router  = express.Router()
 
 //routes kon kon se hai vo iskeliye kam athi hai
